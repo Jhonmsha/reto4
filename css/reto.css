@@ -1,0 +1,36 @@
+
+body{
+  background: gray;
+  background-image: url(https://static.pexels.com/photos/131743/pexels-photo-131743.jpeg);
+
+}
+.box{
+  position: absolute;
+  width:60%;
+  height:60%;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  border: 2px solid;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.medio{
+
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid;
+  overflow: hidden;
+  background-color: rgba(132, 153, 194, 0.20);
+}
+.medio p{
+  /*position: absolute;*/
+  margin:20px 30px;
+  border: 2px solid;
+  /*padding: 5%;*/
+  background-color: rgba(211, 81, 217, 0.43)
+}
